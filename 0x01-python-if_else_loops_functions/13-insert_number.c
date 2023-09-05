@@ -9,7 +9,7 @@
  *	a pointer to the new mode
  */
 
-liistint_t *insert_node(listint_t **head, int number)
+listint_t *insert_node(listint_t **head, int number)
 {
 	listint_t *node = *head, *new;
 
